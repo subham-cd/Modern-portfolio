@@ -161,7 +161,7 @@ export default function ContactPage() {
                 <Mail className="w-5 h-5 text-primary" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-sm text-muted-foreground">subhamsingh@example.com</p>
+                  <p className="text-sm text-muted-foreground">subham0506singh@gmail.com</p>
                 </div>
               </div>
               
