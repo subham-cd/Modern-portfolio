@@ -47,7 +47,27 @@ const projects = [
     color: "from-green-500/20 to-teal-500/20",
     demo: "https://gta-imag.netlify.app/"
   },
+  {
+    id: 3,
+    title: "Arcaya",
+    description: "Enter a mystical universe where three paths await. Choose your destiny and embark on challenging quests that will test your wit, courage, and ambition.",
+    tech: ["NEXT JS", "Responsive Design", "Node.js", "Express", "MongoDB", "JWT"],
+    links: {
+      live: "https://glowing-haupia-bc4ffa.netlify.app/",
+    },
+    features: [
+      "Responsive design across all devices",
+      "Smooth animations and transitions", 
+      "Modern CSS Grid and Flexbox",
+      "Optimized image loading",
+      "Cross-browser compatibility",
+    ],
+    mockup: "/api/placeholder/600/400",
+    color: "from-green-500/20 to-teal-500/20",
+    demo: "https://glowing-haupia-bc4ffa.netlify.app/"
+  }
 ];
+
 
 export function ProjectShowcase() {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
