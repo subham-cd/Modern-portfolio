@@ -93,7 +93,91 @@ const projects = [
   mockup: "/api/placeholder/600/400",
   color: "from-blue-500/20 to-purple-500/20",
   demo: "https://saas-app-lake.vercel.app/"
+},
+  {
+  id: 5,
+  title: "EcoRise",
+  description: "A gamified MERN platform designed to spread environmental awareness through interactive challenges, rewards, and real-world impact activities.",
+  tech: [
+    "MongoDB",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "TailwindCSS"
+  ],
+  links: {
+    live: "https://eco-rise.vercel.app/"
+  },
+  features: [
+    "Gamified tasks to promote environmental awareness",
+    "User rewards and progress tracking",
+    "Clean and responsive UI",
+    "Real-time leaderboard and activity scoring",
+    "Seamless MERN stack integration"
+  ],
+  mockup: "/api/placeholder/600/400",
+  color: "from-green-400/20 to-emerald-500/20",
+  demo: "https://eco-rise.vercel.app/"
+},
+  {
+  id: 6,
+  title: "ResumeMind",
+  description:
+    "An AI-powered resume analyzer that generates ATS scores, highlights weaknesses, and provides improvement suggestions for job-ready resumes.",
+  tech: [
+    "React",
+    "React Router",
+    "Vite",
+    "TailwindCSS",
+    "Zustand",
+    "PDF.js",
+    "clsx"
+  ],
+  links: {
+    live: "https://resume-analyzer-orpin-pi.vercel.app/"
+  },
+  features: [
+    "AI-powered ATS score calculation",
+    "Detailed resume improvement suggestions",
+    "Drag-and-drop PDF upload",
+    "Real-time parsing with PDF.js",
+    "Smooth routing using React Router",
+    "Minimal, responsive, and modern UI"
+  ],
+  mockup: "/api/placeholder/600/400",
+  color: "from-zinc-500/20 to-slate-500/20",
+  demo: "https://resume-analyzer-orpin-pi.vercel.app/"
+},
+  {
+  id: 7,
+  title: "StudyWise Keeper",
+  description:
+    "A clean and efficient study management app built with TypeScript to help students organize and track their study notes effortlessly.",
+  tech: [
+    "TypeScript",
+    "React",
+    "Vite",
+    "TailwindCSS",
+    "Zustand"
+  ],
+  links: {
+    live: "https://study-wise-keeper.vercel.app/"
+  },
+  features: [
+    "Create, save, and manage study notes",
+    "Super clean and minimal UI",
+    "TypeScript for safer and scalable code",
+    "Lightning-fast performance with Vite",
+    "Local state management using Zustand",
+    "Fully responsive design"
+  ],
+  mockup: "/api/placeholder/600/400",
+  color: "from-orange-400/20 to-yellow-500/20",
+  demo: "https://study-wise-keeper.vercel.app/"
 }
+
+
+
 
 ];
 
