@@ -41,6 +41,100 @@ const projects = [
       "Cross-browser compatibility",
     ],
   },
+  {
+  title: "Arcaya",
+  description:
+    "A mystical universe adventure platform where users choose one of three paths and complete challenging quests that test wit, courage, and ambition.",
+  tech: ["Next.js", "Responsive Design", "Node.js", "Express", "MongoDB", "JWT"],
+  links: {
+    live: "https://glowing-haupia-bc4ffa.netlify.app/"
+  },
+  features: [
+    "Responsive design across all devices",
+    "Smooth animations and transitions",
+    "Modern CSS Grid and Flexbox usage",
+    "Optimized image loading for performance",
+    "Cross-browser compatibility"
+  ]
+},
+{
+  title: "Converso",
+  description:
+    "A real-time AI Teaching Platform that delivers instant, smart learning responses with secure authentication, billing, and analytics.",
+  tech: ["Next.js", "Supabase", "Vapi", "TailwindCSS", "Clerk", "Sentry"],
+  links: {
+    live: "https://saas-app-lake.vercel.app/",
+    repo: "https://github.com/subham-cd/saas-app"
+  },
+  features: [
+    "Real-time AI-powered teaching responses",
+    "Secure Clerk-based authentication and billing",
+    "Backend powered by Supabase",
+    "Error tracking and monitoring with Sentry",
+    "Fast and responsive UI",
+    "Production-ready architecture"
+  ]
+},
+{
+  title: "EcoRise",
+  description:
+    "A gamified MERN platform designed to promote environmental awareness through interactive challenges, rewards, and educational activities.",
+  tech: ["MongoDB", "Express.js", "React.js", "Node.js", "TailwindCSS"],
+  links: {
+    live: "https://eco-rise.vercel.app/"
+  },
+  features: [
+    "Gamified tasks for environmental awareness",
+    "User rewards and progress tracking",
+    "Interactive and responsive UI",
+    "Real-time leaderboard features",
+    "Smooth MERN stack integration"
+  ]
+},
+{
+  title: "ResumeMind",
+  description:
+    "An AI-powered resume analyzer that calculates ATS scores and provides actionable improvement suggestions to help users build job-ready resumes.",
+  tech: [
+    "React",
+    "React Router",
+    "Vite",
+    "TailwindCSS",
+    "Zustand",
+    "PDF.js",
+    "clsx"
+  ],
+  links: {
+    live: "https://resume-analyzer-orpin-pi.vercel.app/"
+  },
+  features: [
+    "AI-driven ATS score calculation",
+    "Deep resume improvement suggestions",
+    "Drag-and-drop PDF upload",
+    "PDF parsing via PDF.js",
+    "Fast navigation with React Router",
+    "Minimal and responsive UI"
+  ]
+},
+{
+  title: "StudyWise Keeper",
+  description:
+    "A TypeScript-based study notes management app that helps students save, organize, and track their study material effortlessly.",
+  tech: ["TypeScript", "React", "Vite", "TailwindCSS", "Zustand"],
+  links: {
+    live: "https://study-wise-keeper.vercel.app/"
+  },
+  features: [
+    "Create, save, delete, and manage notes",
+    "Minimal and distraction-free interface",
+    "TypeScript-powered reliable architecture",
+    "Extremely fast performance using Vite",
+    "State management with Zustand",
+    "Fully responsive layout"
+  ]
+},
+
+  
 ];
 
 export default function ProjectsPage() {
