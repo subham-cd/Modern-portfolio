@@ -65,7 +65,36 @@ const projects = [
     mockup: "/api/placeholder/600/400",
     color: "from-green-500/20 to-teal-500/20",
     demo: "https://glowing-haupia-bc4ffa.netlify.app/"
-  }
+  },
+  {
+  id: 4,
+  title: "Converso",
+  description: "Real-time AI Teaching Platform that enables students to learn instantly with smart, interactive AI responses.",
+  tech: [
+    "Next.js",
+    "Supabase",
+    "Vapi (AI Provider)",
+    "TailwindCSS",
+    "Clerk (Auth & Billing)",
+    "Sentry"
+  ],
+  links: {
+    live: "https://saas-app-lake.vercel.app/",
+    repo: "https://github.com/subham-cd/saas-app"
+  },
+  features: [
+    "Real-time AI-powered teaching responses",
+    "Authentication & billing handled by Clerk",
+    "Secure backend with Supabase",
+    "Production-grade error tracking using Sentry",
+    "Fully responsive and clean UI",
+    "Fast and optimized performance"
+  ],
+  mockup: "/api/placeholder/600/400",
+  color: "from-blue-500/20 to-purple-500/20",
+  demo: "https://saas-app-lake.vercel.app/"
+}
+
 ];
 
 
